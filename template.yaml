@@ -31,7 +31,7 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       # Imatge d'Amazon Linux 2 (Recorda canviar-la segons la teva regió)
-      ImageId: 'ami-00119fffaae8a27cb' 
+      ImageId: 'ami-0e1c4170d9c01184b' 
       InstanceType: 't3.micro' # Capa gratuïta
       SecurityGroups:
         - !Ref MeuGrupDeSeguretat
